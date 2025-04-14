@@ -1,0 +1,10 @@
+models:
+  - name: int_vendas__prep_produtos
+    description: modelo que enriquece os dados de produtos com categoria e fornecedor.
+    columns:
+      - name: PK_PRODUTO
+        description: PARA PREECHER.
+        data_tests:
+          - unique
+          - not_null
+               
