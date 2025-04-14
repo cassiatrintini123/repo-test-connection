@@ -1,38 +1,10 @@
 models:
-  - name: dim_produtos
-    description: dimensão de produtos do sistema de PDV da Northwind.
+  - name: int_vendas__prep_produtos
+    description: modelo que enriquece os dados de produtos com categoria e fornecedor.
     columns:
       - name: PK_PRODUTO
         description: PARA PREECHER.
         data_tests:
           - unique
           - not_null
-                  
-      - name: NM_PRODUTO
-        description: PARA PREECHER
-        
-      - name: PRECO_POR_UNIDADE
-        description: PARA PREECHER
-        
-      - name: UNIDADE_POR_PEDIDO
-        description: PARA PREECHER
-        
-      - name: UNIDADE_EM_ESTOQUE
-        description: PARA PREECHER
-        
-      - name: NIVEL_DE_PEDIDO
-        description: PARA PREECHER
-        
-      - name: EH_DISCONTINUADO
-        description: PARA PREECHER
-        
-      - name: NOME_CATEGORIA
-        description: PARA PREECHER
-        
-      - name: CIDADE_FORNECEDOR
-        description: PARA PREECHER
-        
-      - name: PAIS_FORNECEDOR
-        description: PARA PREECHER
-
-       
+               
