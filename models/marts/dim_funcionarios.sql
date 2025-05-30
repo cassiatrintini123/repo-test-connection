@@ -5,4 +5,6 @@ with
     )
 
 select *
-from dim_funcionarios
+from dim_funcionarios 
+
+--
